@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shop/exceptions/http_exception.dart';
-import 'package:shop/models/product.dart';
-import 'package:shop/models/product_list.dart';
-import 'package:shop/utils/app_routes.dart';
+import 'package:shop_idex/exceptions/http_exception.dart';
+import 'package:shop_idex/models/product.dart';
+import 'package:shop_idex/models/product_list.dart';
+import 'package:shop_idex/utils/app_routes.dart';
 
 class ProductItem extends StatelessWidget {
   final Product product;
@@ -37,7 +37,7 @@ class ProductItem extends StatelessWidget {
             ),
             IconButton(
               icon: const Icon(Icons.delete),
-              color: Theme.of(context).errorColor,
+              color: Theme.of(context).colorScheme.error,
               onPressed: () {
                 showDialog<bool>(
                   context: context,
