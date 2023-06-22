@@ -49,7 +49,7 @@ class AuthPage extends StatelessWidget {
                     ],
                   ),
                   child: const Text(
-                    'Store App',
+                    'Minha Loja',
                     style: TextStyle(
                       fontSize: 45,
                       fontFamily: 'Anton',

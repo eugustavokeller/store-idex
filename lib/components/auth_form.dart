@@ -160,7 +160,7 @@ class _AuthFormState extends State<AuthForm> {
                     ),
                   ),
                   child: Text(
-                    _authMode == AuthMode.login ? 'Login' : 'Registrar',
+                    _authMode == AuthMode.login ? 'ENTRAR' : 'REGISTRAR',
                   ),
                 ),
               const Spacer(),
